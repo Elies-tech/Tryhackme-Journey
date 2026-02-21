@@ -64,33 +64,49 @@ The OSI model is a reference model that provides a standardized way to understan
 
 It is divided into seven layers, each responsible for a specific part of the communication process.
 
+---
+
 7. Application Layer
 
 This is the layer closest to the user. It includes applications that allow users to interact with the network, such as web browsers or email clients.
+
+---
 
 6. Presentation Layer
 
 This layer ensures that data is in a format that the receiving system can understand. It can handle tasks like formatting, encoding, or encryption.
 
+---
+
 5. Session Layer
 
 The session layer manages communication sessions between devices. It is responsible for establishing, maintaining, and closing connections.
+
+---
 
 4. Transport Layer
 
 The transport layer is responsible for delivering data between devices. It ensures that data is transmitted reliably or efficiently, depending on the protocol used (e.g. TCP or UDP).
 
+---
+
 3. Network Layer
 
 This layer determines how data is routed from one device to another across different networks. It decides the best path for data to travel.
+
+---
 
 2. Data Link Layer
 
 The data link layer handles communication between devices on the same network. It works with physical addressing and ensures data is transferred correctly between connected devices.
 
+---
+
 1. Physical Layer
 
 The physical layer is responsible for the actual transmission of data. It uses electrical signals, cables, or wireless signals to transfer information between devices.
+
+---
 
 ## TCP/IP Model
 
