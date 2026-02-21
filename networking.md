@@ -4,31 +4,52 @@
 
 A network is a connection between devices that allows them to communicate with each other.
 
-It enables systems to exchange data and access shared resources.
+It enables systems to:
 
-To better understand this concept, we can look at examples from everyday life:
+* exchange data
+* access shared resources
 
-* A group of friends: They are connected through shared interests, hobbies, or skills.
+### Examples from everyday life
 
-* When buying a product, we are part of a larger physical network (production → delivery → selling).
+* **Group of friends:** Connected through shared interests, hobbies, or skills
+* **Supply chain:** Production → delivery → selling
+* **Library:** Designed to store and retrieve information
 
-* A library: It is designed to store and retrieve information.
+### Real-world usage
 
-In everyday life, networking is used for activities such as browsing websites, sending messages, or streaming content.
+Networking is used for:
 
-Networks are essential for modern digital communication. Without them, services like Google or online messaging would not be possible.
+* browsing websites
+* sending messages
+* streaming content
+
+Networks are essential for modern digital communication.
+Without them, services like Google or online messaging would not be possible.
+
+---
 
 ## Types of Networks
 
-Networks can be categorized based on their size and how they are connected.
+Networks can be categorized based on:
+
+* size
+* connection type
 
 ### LAN (Local Area Network)
 
-A LAN connects devices within a limited area such as a building, apartment, or school.
+A LAN connects devices within a limited area such as:
 
-For example, your computer and a printer within the same home network are part of a LAN.
+* homes
+* apartments
+* schools
 
-LANs are typically fast and used for local communication between devices.
+**Example:**
+A computer connected to a printer in the same home network.
+
+**Key characteristics:**
+
+* high speed
+* local communication
 
 ---
 
@@ -36,9 +57,13 @@ LANs are typically fast and used for local communication between devices.
 
 A WLAN is a type of LAN that uses wireless communication instead of cables.
 
-It allows devices to connect to the same network without physical connections.
+**Example:**
+A laptop connected to a home Wi-Fi network.
 
-For example, a laptop connected to a home Wi-Fi network is part of a WLAN.
+**Key characteristics:**
+
+* no physical cables
+* flexible device connection
 
 ---
 
@@ -46,67 +71,80 @@ For example, a laptop connected to a home Wi-Fi network is part of a WLAN.
 
 A MAN connects multiple LANs within a larger area such as a city.
 
-For example, a university with multiple buildings across a city can use a MAN to connect all campuses.
+**Example:**
+A university with multiple buildings across a city connected to one network.
 
 ---
 
 ### WAN (Wide Area Network)
 
-A WAN connects networks over very large distances, such as across countries or even globally.
+A WAN connects networks over very large distances, such as:
 
-A common example is a banking system, where different branches and ATMs are connected to a central system.
+* across countries
+* globally
 
-The internet itself is the largest example of a WAN.
+**Example:**
+A banking system connecting branches and ATMs.
 
-## OSI Model (Open System Interconnection)
+The internet is the largest example of a WAN.
 
-The OSI model is a reference model that provides a standardized way to understand how network communication works.
+---
+
+## OSI Model (Open Systems Interconnection)
+
+The OSI model is a reference model that provides a standardized way to understand network communication.
 
 It is divided into seven layers, each responsible for a specific part of the communication process.
 
 ---
 
-7. Application Layer
+### 7. Application Layer
 
-This is the layer closest to the user. It includes applications that allow users to interact with the network, such as web browsers or email clients.
-
----
-
-6. Presentation Layer
-
-This layer ensures that data is in a format that the receiving system can understand. It can handle tasks like formatting, encoding, or encryption.
+* closest layer to the user
+* includes applications like browsers or email clients
 
 ---
 
-5. Session Layer
+### 6. Presentation Layer
 
-The session layer manages communication sessions between devices. It is responsible for establishing, maintaining, and closing connections.
-
----
-
-4. Transport Layer
-
-The transport layer is responsible for delivering data between devices. It ensures that data is transmitted reliably or efficiently, depending on the protocol used (e.g. TCP or UDP).
+* ensures data is in a readable format
+* handles formatting, encoding, encryption
 
 ---
 
-3. Network Layer
+### 5. Session Layer
 
-This layer determines how data is routed from one device to another across different networks. It decides the best path for data to travel.
-
----
-
-2. Data Link Layer
-
-The data link layer handles communication between devices on the same network. It works with physical addressing and ensures data is transferred correctly between connected devices.
+* manages communication sessions
+* establishes, maintains, and closes connections
 
 ---
 
-1. Physical Layer
+### 4. Transport Layer
 
-The physical layer is responsible for the actual transmission of data. It uses electrical signals, cables, or wireless signals to transfer information between devices.
+* delivers data between devices
+* ensures reliable or efficient transmission (TCP / UDP)
 
 ---
+
+### 3. Network Layer
+
+* determines how data is routed
+* selects the best path between networks
+
+---
+
+### 2. Data Link Layer
+
+* handles communication within the same network
+* ensures correct data transfer between devices
+
+---
+
+### 1. Physical Layer
+
+* responsible for actual data transmission
+* uses electrical signals, cables, or wireless signals
+
 
 ## TCP/IP Model
 
