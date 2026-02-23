@@ -148,24 +148,74 @@ It is divided into seven layers, each responsible for a specific part of the com
 
 ## TCP/IP Model
 
-*in progress*
+The TCP/IP model describes how data is transmitted across networks and is used in real-world communication.
+
+It consists of four layers:
+
+Application
+
+Transport
+
+Internet
+
+Network Access
+
+It is more practical than the OSI model and forms the foundation of modern networking.
+
+### TCP vs UDP
+
+TCP and UDP are two different ways to transmit data.
+
+TCP: reliable, ensures data arrives correctly
+
+UDP: faster, but no guarantee of delivery
+
+Used depending on whether reliability or speed is more important.
 
 ## IP Addressing
 
-*in progress*
+An IP address is used to identify devices within a network.
+
+It allows data to be sent from one device to another.
+
+Key points:
+
+each device needs a unique IP address
+
+used for communication across networks
 
 ## Ports
 
-*in progress*
+Ports allow multiple services to run on a single device.
 
-## TCP vs UDP
+They act as communication endpoints for applications.
 
-*in progress*
+Examples:
+
+web traffic
+
+email services
 
 ## DNS
 
-*in progress*
+DNS translates domain names into IP addresses.
+
+It allows users to access websites without remembering numerical addresses.
+
+Example:
+
+google.com → IP address
 
 ## Basic Network Communication
 
-*in progress*
+When accessing a website, multiple components work together:
+
+DNS resolves the domain name
+
+data is sent using TCP or UDP
+
+IP addresses identify sender and receiver
+
+data travels across networks to reach its destination
+
+This process happens within milliseconds and forms the basis of internet communication.
