@@ -162,6 +162,8 @@ Network Access
 
 It is more practical than the OSI model and forms the foundation of modern networking.
 
+---
+
 ### TCP vs UDP
 
 TCP and UDP are two different ways to transmit data.
